@@ -3,7 +3,7 @@
     <h2>{{title}}</h2>
   </div>
   <div class="col-sm-6 align-bottom">
-    <button style="background-color: rgb(243, 103, 61);" routerLink="/games/create">Create new game</button>
+    <button class="btn btn-primary pull-right" routerLink="/games/create">Create new game</button>
   </div>
 </div>
 <table class="table table-striped" style="text-align: left">
@@ -19,13 +19,13 @@
   <tr *ngFor="let game of games | async">
     <td>
       <div class="btn-group">
-        <button style="background-color: rgb(206, 195, 231);" routerLink="/games/detail/{{game.id}}" >
+        <button style="background-color: rgb(169, 156, 199);" routerLink="/games/detail/{{game.id}}" >
           Details
         </button>
-        <button style="background-color: rgb(16, 28, 196);" routerLink="/games/edit/{{game.id}}" >
+        <button routerLink="/games/edit/{{game.id}}" >
           Edit
         </button>
-        <button style="background-color: red;" (click)="delete(game.id)">
+        <button (click)="delete(game.id)">
           Delete
         </button>
       </div>

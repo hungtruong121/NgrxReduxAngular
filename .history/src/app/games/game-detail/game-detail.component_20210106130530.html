@@ -16,10 +16,10 @@
         <div class="col-sm-9">{{game.releaseDate}}</div>
       </div>
       <div class="btn-group">
-        <button type="button" style="background-color: skyblue;" routerLink="/games">
+        <button type="button" class="btn btn-secondary btn-sm" routerLink="/games">
           <i class="fa fa-arrow-left"></i> Back
         </button>
-        <button type="button" (click)="delete(game.id)" style="background-color: red;">
+        <button type="button" (click)="delete(game.id)" backgroudcol>
           <i class="fa fa-times"></i> Delete
         </button>
       </div>

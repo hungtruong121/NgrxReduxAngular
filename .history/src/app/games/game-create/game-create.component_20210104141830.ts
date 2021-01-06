@@ -49,6 +49,7 @@ export class GameCreateComponent implements OnInit {
   reset() {
     this.game.name = '';
     this.game.releaseDate = null;
+    this.game.description = '';
     this.game.platforms = [];
   }
 }

@@ -65,6 +65,7 @@ export class GameEditComponent implements OnInit {
    */
   reset() {
     this.game.name = '';
+    this.game.description = '';
     this.game.releaseDate = null;
     this.game.platforms = [];
   }
