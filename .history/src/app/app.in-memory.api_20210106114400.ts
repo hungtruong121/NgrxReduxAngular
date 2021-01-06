@@ -89,6 +89,7 @@ export class AppInMemoryApi implements InMemoryDbService {
           name: 'Wolfenstein II: The New Colossus',
           releaseDate: '2020-10-27',
           platforms: [1, 2, 3],
+
         }
       ],
       platforms: [

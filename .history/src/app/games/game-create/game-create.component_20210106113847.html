@@ -7,7 +7,7 @@
       <input id="txtName"
              type="text"
              class="form-control"
-             [(ngModel)]="game.name"
+             [(ngModel)]="Hero.name"
              title="Name"
              placeholder="Enter a name ..." [ngModelOptions]="{standalone: true}"
       />
@@ -28,10 +28,21 @@
       <input id="txtDate"
              type="date"
              class="form-control"
-             [(ngModel)]="game.releaseDate"
              title="Release date"
              placeholder="yyyy-mm-dd" [ngModelOptions]="{standalone: true}"
       />
+    </div>
+  </div>
+  <div class="row">
+    <label class="control-label col-sm-3" for="txtDate">Description:</label>
+    <div class="col-sm-5">
+      <textarea id="txtDesc"
+             class="form-control"
+                rows="15"
+             [(ngModel)]="game.description"
+             title="Name"
+             placeholder="Enter a description ..." [ngModelOptions]="{standalone: true}"
+      ></textarea>
     </div>
   </div>
   <div class="form-group">

@@ -2,6 +2,10 @@
   <h2>{{title}}</h2>
 
   <div class="row">
+    <div class="col-sm-3">
+      <img *ngIf="game.image" src="assets/images/{{game.image}}" alt="{{game.name}}" width="300px" height="450px"/>
+      <img *ngIf="!game.image" src="assets/images/not-available.png" width="130px" height="100px"/>
+    </div>
     <div class="col-sm-9">
       <div class="row">
         <label class="col-sm-2">Name:</label>
@@ -14,6 +18,10 @@
       <div class="row">
         <label class="col-sm-2">Released: </label>
         <div class="col-sm-9">{{game.releaseDate}}</div>
+      </div>
+      <div class="row">
+        <label class="col-sm-2">Description: </label>
+        <div class="col-sm-9">{{game.description}}</div>
       </div>
       <div class="btn-group">
         <button type="button" class="btn btn-secondary btn-sm" routerLink="/games">

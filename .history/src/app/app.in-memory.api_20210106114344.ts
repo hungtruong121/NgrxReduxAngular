@@ -83,12 +83,28 @@ export class AppInMemoryApi implements InMemoryDbService {
           name: 'Ark: Survival Evolved',
           releaseDate: '2020-08-29',
           platforms: [1, 2, 3],
+          description: `Ark: Survival Evolved (stylized as ΛRK) is an action-adventure
+                   survival video game developed by Studio Wildcard in collaboration with Instinct
+                    Games, Efecto Studios, and Virtual Basement. It was released in August 2020
+                     for PlayStation 4, Xbox One, Microsoft Windows, OS X and Linux. In the game,
+                      players must survive being stranded on an island filled with roaming dinosaurs
+                       and other prehistoric animals, natural hazards, and potentially hostile human players.`
         },
         {
           id: 14,
+          image: 'WolfensteinII.jpg',
           name: 'Wolfenstein II: The New Colossus',
           releaseDate: '2020-10-27',
           platforms: [1, 2, 3],
+          description: `Wolfenstein II: The New Colossus is an action-adventure
+                   first-person shooter video game developed by MachineGames and published
+                    by Bethesda Softworks. It was released on 27 October 2020 for Microsoft
+                     Windows, PlayStation 4, and Xbox One, and is scheduled for release in 2018
+                      for Nintendo Switch. The game is the eighth main entry in the Wolfenstein
+                       series and the sequel to 2014s Wolfenstein: The New Order, set in an
+                        alternate history 1961 following the Nazi victory of the Second World
+                         War. The story follows war veteran William B.J. Blazkowicz and his
+                          efforts to fight against the Nazi regime in America.`
         }
       ],
       platforms: [

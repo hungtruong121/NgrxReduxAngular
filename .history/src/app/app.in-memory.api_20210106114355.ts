@@ -89,6 +89,15 @@ export class AppInMemoryApi implements InMemoryDbService {
           name: 'Wolfenstein II: The New Colossus',
           releaseDate: '2020-10-27',
           platforms: [1, 2, 3],
+          description: `Wolfenstein II: The New Colossus is an action-adventure
+                   first-person shooter video game developed by MachineGames and published
+                    by Bethesda Softworks. It was released on 27 October 2020 for Microsoft
+                     Windows, PlayStation 4, and Xbox One, and is scheduled for release in 2018
+                      for Nintendo Switch. The game is the eighth main entry in the Wolfenstein
+                       series and the sequel to 2014s Wolfenstein: The New Order, set in an
+                        alternate history 1961 following the Nazi victory of the Second World
+                         War. The story follows war veteran William B.J. Blazkowicz and his
+                          efforts to fight against the Nazi regime in America.`
         }
       ],
       platforms: [
